@@ -1,0 +1,100 @@
+.logo {
+    width: 250px;
+    height: 30px;
+    margin-left: 150px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.peppertyper {
+    background-color: #fbf9f4;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    /* text-align: justify; */
+    
+}
+.greeting {
+    font-size: 23px;
+}
+.welcome {
+    text-align: left;
+    margin-left: 20%;
+    line-height: 35px;
+}
+
+.welcome h1 {
+    font-size: 40px;
+}
+.welcome p {
+    font-size: 20px;
+}
+
+.btn  {
+   border: none; 
+   padding: 10px 20px;
+   border-radius: 3px;
+   background-color: rgb(247, 247, 247);
+   font-weight: 700;
+   font-size: 15px;
+}
+
+.continue {
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.demo {
+    font-weight: bold;
+    font-size: 15px;
+    color: silver;
+
+}
+.live-link {
+    text-decoration: underline;
+    color: silver;
+}
+.peppertyper-title {
+    font-size: 25px;
+}
+.peppertyper-text {
+    
+    width: 100%;
+    height: 100px;
+    background-image: url('../img/highlights-bg.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px;
+    font-size: 17px;
+}
+
+.peppertyper-text {
+    margin-top: 50px;
+}
+
+.need-help {
+   position: relative;
+   margin-top: -120px;
+   margin-right: 20px;
+}
+.help {
+    color: white;
+    background-color: rgb(16, 16, 236);
+    width: 100px;
+    margin-right: 0;
+    padding: 10px;
+    position: absolute;
+    right: 5px;
+    border-radius: 20px 0px 15px 20px;
+}
